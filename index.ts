@@ -1,5 +1,5 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
-
 const word_counter = async () => {
   const { app } = await inquirer.prompt([
     {
